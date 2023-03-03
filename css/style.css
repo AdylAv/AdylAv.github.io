@@ -253,10 +253,131 @@ h1{
     color: #FCFCFD;
     margin-bottom: 20px;
 }
+.content_btn_bid:hover{
+    background: #779aec;
+}
+
+.auction_right_content_vector{
+    margin-top: 50px;
+}
+
+.auction_right_content_vector_left{
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.auction_right_content_vector_left:hover{
+    border-color: #141416;
+}
+.auction_right_content_vector_right{ 
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.auction_right_content_vector_right:hover{
+    border-color: #141416;
+}
+
 
 /* Auction <========================================= */
 
 /* Feed =========================================> */
 
+.feed_wrapper{
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 145px;
+    display: flex;
+}
+.feed_left_side_dflex{
+    display: flex;
+    justify-content: space-between;
+    width: 448px;
+    align-items: center;
+    margin-top: 25px;
+}
+.jakob{
+    border-radius: 15px;
+}
+.feed_left_side_description_left{
+    display: flex;
+    align-items: center;
+}
+.side_description{
+    margin-left: 15px;
+}
+.left_side_description_tittle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #23262F;
+}
 
+.left_side_description_text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #353945;
+}
+.feed_left_side_description_right{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.side_description_right_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E91;
+    padding-bottom: 5px;
+    
+}
+.side_description_right_price{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #45B36B;
+    border: 2px solid #45B36B;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.feed_right_side_1block{
+    display: flex;
+    margin-left: 27px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.michael{
+    border-radius: 10px;
+}
+.feed_right_side_1block_desc{
+    margin-left: 24px;
+    
+}
+.feed_right_side_name{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.feed_right_side_1block_desc_flex{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.block_desc_img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.feed_right_side_btn{
+    padding: 8px 12px;
+    gap: 12px;
+    width: 98px;
+    height: 32px;
+    background: #3772FF;
+    border-radius: 90px;
+    color: #ffffff;
+}
 /* Feed =========================================> */
